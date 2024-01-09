@@ -101,6 +101,10 @@ body {
     max-width: 200px;
 }
 
+.pov2 .pov-logo {
+    padding-top: 15px;
+}
+
 .citrus_Okocat_carousel .citrus_Okocat_carousel-inner .citrus_Okocat_carousel-item .pov-text__wrapper .pov-text__title {
     width: 100%;
     padding: 15px 0;
@@ -155,13 +159,15 @@ body {
 
 }
 
-.citrus_Okocat_carousel-inner .pov2 {
+.citrus_Okocat_carousel-inner .pov3 {
     background-image: url("img/citrusOkocat_Desktop-POV2.png");
 }
 
-.citrus_Okocat_carousel-inner .pov3 {
+.citrus_Okocat_carousel-inner .pov2 {
     background-image: url("img/citrusOkocat_Desktop-POV3.png");
 }
+
+
 
 .citrus_Okocat_carousel-item {
     width: 100%;
@@ -232,11 +238,14 @@ body {
 @media only screen and (min-width: 1920px) {
     .citrus_Okocat_carousel .citrus_Okocat_carousel-inner .citrus_Okocat_carousel-item .pov-text {
         padding-left: 6%;
-        padding-top: 2%;
     }
 
     .citrus_Okocat_carousel .citrus_Okocat_carousel-inner .citrus_Okocat_carousel-item .pov-text__wrapper .pov-logo {
         max-width: 300px;
+    }
+
+    #citrusOkoCat_logo3 {
+        padding-top: 15px;
     }
 
     .citrus_Okocat_carousel .citrus_Okocat_carousel-inner .citrus_Okocat_carousel-item .pov-text__wrapper .pov-text__title {
@@ -300,8 +309,13 @@ body {
 }
 
 @media screen and (max-width:767px) {
+
     .citrus_Okocat_carousel-item {
         margin-right: 0;
+    }
+
+    .pov2 .pov-logo {
+        padding-top: 0;
     }
 }
 
@@ -419,6 +433,7 @@ body {
         font-size: 10px;
         text-align: center;
     }
+
 }
 
 /* category icon style */
@@ -698,6 +713,16 @@ Responsive styles
 
     .citrusOkocat__footerText {
         padding-top: 40px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .citrusOkocat__footer {
+        margin-top: 40px ;
+    }
+
+    .citrusOkocat__footerRow {
+        grid-gap: 0;
     }
 }
 
